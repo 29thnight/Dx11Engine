@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Core.Define">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Core.LinkedList">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="DirectX11Common">
+      <UniqueIdentifier>{f2700d61-863e-4570-b377-7dcc2b470b21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WindowsApplicationLevel">
+      <UniqueIdentifier>{b7076307-f148-4ed0-b808-fb20065fd84b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core.Random">
+      <UniqueIdentifier>{9e9aeb60-e21b-4380-9576-95dd4420fa20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core.Memory">
+      <UniqueIdentifier>{172cd962-ab07-4c9e-99b6-ac843fe35d3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core.Mathf">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Banchmark">
+      <UniqueIdentifier>{94ceab98-aa5e-4979-a7de-f203f883256a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TypeDefinition.h">
+      <Filter>Core.Define</Filter>
+    </ClInclude>
+    <ClInclude Include="Core.Definition.h">
+      <Filter>Core.Define</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassProperty.h">
+      <Filter>Core.Define</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkedListLib.hpp">
+      <Filter>Core.LinkedList</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectXHelper.h">
+      <Filter>DirectX11Common</Filter>
+    </ClInclude>
+    <ClInclude Include="DeviceResources.h">
+      <Filter>DirectX11Common</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreWindow.h">
+      <Filter>WindowsApplicationLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="DumpHandler.h">
+      <Filter>WindowsApplicationLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeSystem.h">
+      <Filter>DirectX11Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Core.Random.h">
+      <Filter>Core.Random</Filter>
+    </ClInclude>
+    <ClInclude Include="Core.Memory.h">
+      <Filter>Core.Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryPool.h">
+      <Filter>Core.Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Segment.h">
+      <Filter>Core.Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="SpinLock.h">
+      <Filter>Core.Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Core.Mathf.h">
+      <Filter>Core.Mathf</Filter>
+    </ClInclude>
+    <ClInclude Include="Banchmark.hpp">
+      <Filter>Banchmark</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DeviceResources.cpp">
+      <Filter>DirectX11Common</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreWindow.cpp">
+      <Filter>WindowsApplicationLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="Segment.cpp">
+      <Filter>Core.Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryPool.cpp">
+      <Filter>Core.Memory</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

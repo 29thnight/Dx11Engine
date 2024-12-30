@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Core">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Graphics">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Graphics\PSO">
+      <UniqueIdentifier>{9b661faf-f938-48e0-940f-4fd116006f2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\PSOCached">
+      <UniqueIdentifier>{045e81b4-3776-4dae-a980-ab6f657e3467}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Renderer">
+      <UniqueIdentifier>{b24ac4cd-3d47-4310-88d2-7b550025b28a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Components">
+      <UniqueIdentifier>{3a58e527-62e2-4236-b28f-ed6237b4055a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Managers">
+      <UniqueIdentifier>{019efc40-8548-48f4-9070-f150f39b35fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\System">
+      <UniqueIdentifier>{23784d55-af05-4ab9-9c01-3cd39a0bf39d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Managers\EntityManager">
+      <UniqueIdentifier>{23206d53-38a1-4dee-ba8a-6a91d4ffe539}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Managers\InputManager">
+      <UniqueIdentifier>{3811f5ff-312b-491e-ab16-76834955fe44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Managers\ComponentManager">
+      <UniqueIdentifier>{fd30a1a8-bb29-422d-a315-7a3694add750}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource\Mesh">
+      <UniqueIdentifier>{98283a52-2396-4704-8029-e928149e34e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource\Material">
+      <UniqueIdentifier>{c2bc35e9-3cbd-4e48-911a-71a63fc9b58e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource\Texture">
+      <UniqueIdentifier>{801a423d-145b-4cf0-a3d6-6fc6ac6ea32f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Managers\Registry">
+      <UniqueIdentifier>{877e78ce-66c0-4516-ac29-92bf7289248e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource\SimpleShader">
+      <UniqueIdentifier>{41b8c631-a11c-40cc-be94-d878cb70da79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource\SimpleShader\ShaderResource">
+      <UniqueIdentifier>{84ee67bc-4c90-4d1d-a4d4-472a3c7e336b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource\SimpleShader\SimpleShaderDefine">
+      <UniqueIdentifier>{8e2c24ab-5208-4a18-aafb-03ca7068f0de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource\SimpleShader\SimpleShaderMain">
+      <UniqueIdentifier>{b3c8de0b-bcee-48cd-b15c-cc3ec27cb199}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EntityManager.h">
+      <Filter>Core\Managers\EntityManager</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Core\Managers\InputManager</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentManager.h">
+      <Filter>Core\Managers\ComponentManager</Filter>
+    </ClInclude>
+    <ClInclude Include="IComponentManager.h">
+      <Filter>Core\Managers\ComponentManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraComponent.h">
+      <Filter>Core\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="MaterialComponent.h">
+      <Filter>Core\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshComponent.h">
+      <Filter>Core\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Registry.h">
+      <Filter>Core\Managers\Registry</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Resource\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Resource\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderResource.h">
+      <Filter>Resource\SimpleShader\ShaderResource</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleShaderDefine.h">
+      <Filter>Resource\SimpleShader\SimpleShaderDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleShader.h">
+      <Filter>Resource\SimpleShader\SimpleShaderMain</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Resource\Mesh</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EntityManager.cpp">
+      <Filter>Core\Managers\EntityManager</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Core\Managers\InputManager</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleShader.cpp">
+      <Filter>Resource\SimpleShader\SimpleShaderMain</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderResource.cpp">
+      <Filter>Resource\SimpleShader\ShaderResource</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ShaderResource.inl">
+      <Filter>Resource\SimpleShader\ShaderResource</Filter>
+    </None>
+  </ItemGroup>
+</Project>
